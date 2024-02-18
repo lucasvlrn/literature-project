@@ -13,7 +13,7 @@ function ClassicismoMov() {
     <>
       <div className="image-back-cla">
         <h1>Classicismo</h1>
-        <button id="go-text" onClick={scrollToP1}>
+        <button id="go-text" onClick={() => scrollToP1}>
           &darr;
         </button>
       </div>

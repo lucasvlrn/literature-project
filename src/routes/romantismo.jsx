@@ -14,7 +14,7 @@ function RomantismoMov() {
     <>
       <div className="image-back-rom">
         <h1>Romantismo</h1>
-        <button id="go-text" onClick={scrollToP1}>
+        <button id="go-text" onClick={() => scrollToP1}>
           &darr;
         </button>
       </div>

@@ -13,7 +13,7 @@ function BarrocoMov() {
     <>
       <div className="image-back-bar">
         <h1>Barroco</h1>
-        <button id="go-text" onClick={scrollToP1}>
+        <button id="go-text" onClick={() => scrollToP1()}>
           &darr;
         </button>
       </div>

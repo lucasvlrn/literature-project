@@ -13,7 +13,7 @@ function HumanismoMov() {
     <>
       <div className="image-back-hum">
         <h1>Humanismo</h1>
-        <button id="go-text" onClick={scrollToP1}>
+        <button id="go-text" onClick={() => scrollToP1}>
           &darr;
         </button>
       </div>

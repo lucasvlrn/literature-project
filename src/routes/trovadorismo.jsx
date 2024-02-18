@@ -13,7 +13,7 @@ function TrovadorismoMov() {
     <>
       <div className="image-back-trv">
         <h1>Trovadorismo</h1>
-        <button id="go-text" onClick={scrollToP1}>
+        <button id="go-text" onClick={() => scrollToP1}>
           &darr;
         </button>
       </div>
