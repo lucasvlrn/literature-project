@@ -1,0 +1,67 @@
+* {
+  color: #d1b7b7;
+}
+
+.content-info {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(37, 24, 24);
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  text-align: justify;
+  gap: 2rem;
+}
+
+.epigraph {
+  padding-top: 2rem;
+}
+
+.epigraph > p {
+  font-style: italic;
+  text-align: center;
+}
+
+.line {
+  width: 80%;
+  border: 2px solid rgb(177, 136, 136);
+}
+
+.text-content-info {
+  width: 80vw;
+}
+
+.text-content-info > h1 {
+  text-align: center;
+}
+
+.text-content-info,
+.epigraph {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.25rem;
+  height: fit-content;
+  gap: 1rem;
+  padding: 0.25rem;
+}
+
+@media (max-width: 768px) {
+  .content-info {
+    min-height: 150vh;
+  }
+
+  .texts {
+    height: 100vh;
+  }
+
+  .epigraph {
+    text-align: center;
+  }
+}
