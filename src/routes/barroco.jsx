@@ -3,8 +3,8 @@ import Content from "../pages/Content";
 import "./css/barroco.css";
 
 function BarrocoMov() {
+  window.scrollTo(top);
   const scrollToP1 = () => {
-    window.scrollTo(top);
     const p1Element = document.getElementById("p1");
     if (p1Element) {
       p1Element.scrollIntoView({ behavior: "smooth" });
