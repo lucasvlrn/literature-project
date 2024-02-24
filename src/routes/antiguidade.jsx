@@ -3,6 +3,7 @@ import Content from "../pages/Content";
 import "./css/antiguidade.css";
 
 function AntiguidadeMov() {
+  window.scrollTo(top);
   const scrollToP1 = () => {
     const p1Element = document.getElementById("p1");
     if (p1Element) {

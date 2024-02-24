@@ -3,6 +3,7 @@ import Content from "../pages/Content";
 import "./css/romantismo.css";
 
 function RomantismoMov() {
+  window.scrollTo(top);
   const scrollToP1 = () => {
     const p1Element = document.getElementById("p1");
     if (p1Element) {
@@ -14,7 +15,7 @@ function RomantismoMov() {
     <>
       <div className="image-back-rom">
         <h1>Romantismo</h1>
-        <button id="go-text" onClick={() => scrollToP1}>
+        <button id="go-text" onClick={scrollToP1}>
           &darr;
         </button>
       </div>

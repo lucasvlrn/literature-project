@@ -4,6 +4,7 @@ import "./css/barroco.css";
 
 function BarrocoMov() {
   const scrollToP1 = () => {
+    window.scrollTo(top);
     const p1Element = document.getElementById("p1");
     if (p1Element) {
       p1Element.scrollIntoView({ behavior: "smooth" });
@@ -13,7 +14,7 @@ function BarrocoMov() {
     <>
       <div className="image-back-bar">
         <h1>Barroco</h1>
-        <button id="go-text" onClick={() => scrollToP1()}>
+        <button id="go-text" onClick={scrollToP1}>
           &darr;
         </button>
       </div>

@@ -3,6 +3,7 @@ import Content from "../pages/Content";
 import "./css/humanismo.css";
 
 function HumanismoMov() {
+  window.scrollTo(top);
   const scrollToP1 = () => {
     const p1Element = document.getElementById("p1");
     if (p1Element) {
@@ -13,7 +14,7 @@ function HumanismoMov() {
     <>
       <div className="image-back-hum">
         <h1>Humanismo</h1>
-        <button id="go-text" onClick={() => scrollToP1}>
+        <button id="go-text" onClick={scrollToP1}>
           &darr;
         </button>
       </div>
