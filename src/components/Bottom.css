@@ -3,9 +3,8 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   gap: 6rem;
-  padding: 5rem 0rem 0rem 0rem;
+  padding-top: 5rem;
 }
 #title-authors {
   font-size: 1.5rem;

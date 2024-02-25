@@ -27,7 +27,7 @@ function BarrocoMov() {
           title={"Barroco"}
           p1={
             "O Barroco é um estilo de época caracterizado pelo conflito e culto ao contraste. Ele surgiu no contexto histórico da Reforma Protestante e da Contrarreforma Católica. " +
-            " As obras mais conhecidas são os sermões de Pe. Antônio Vieira, as poesias de Gregório de Matos, as obras artísticas de Caravaggio, esculturas de Bernini etc."
+            "As obras mais conhecidas são os sermões de Pe. Antônio Vieira, as poesias de Gregório de Matos, as obras artísticas de Caravaggio, esculturas de Bernini etc."
           }
           p2={
             "No âmbito artístico, ficou conhecido o Chiaroscuro, contraste entre luz e sombra criado por Caravaggio. " +

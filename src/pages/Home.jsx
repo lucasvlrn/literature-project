@@ -5,10 +5,16 @@ import "./Home.css";
 import Landing from "./Landing.jsx";
 
 function Home() {
+  const scrollToP1 = () => {
+    const p1Element = document.getElementById("p1");
+    if (p1Element) {
+      p1Element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <>
-      <Landing />
-      <div className="container">
+      <Landing goTo={scrollToP1} />
+      <div className="container" id="p1">
         <div className="row-antiguidade">
           <Card
             title="Antiguidade Clássica"
@@ -44,7 +50,7 @@ function Home() {
           <Card
             title={"Classicismo"}
             subtitle={
-              "A escola renascentista ficou reconhecida por renascer, os conceitos provenientes da antiguidade clássica, como a simetria, universalidade etc. Com isso, surgiram duas principais escolas artístico-literárias: o classicismo e o barroco"
+              "A escola renascentista ficou reconhecida por renascer os conceitos provenientes da antiguidade clássica, como a simetria, universalidade etc. Com isso, surgiram duas principais escolas artístico-literárias: o classicismo e o barroco"
             }
             link="/classicismo"
           />
@@ -64,7 +70,7 @@ function Home() {
           <Card
             title={"Arcadismo"}
             subtitle={
-              "A escola arcádia surgiu com a influencia do iluminismo e do avanço industrial europeu.O arcadismo buscava o resgate a mitologia antiga e a exaltação da natureza, a partir de um conceito amplamente falado no contexto deste movimento: o buscolismo."
+              "A escola arcádia surgiu com a influencia do iluminismo e do avanço industrial europeu. O arcadismo buscava o resgate a mitologia antiga e a exaltação da natureza, a partir de um conceito amplamente falado no contexto deste movimento: o buscolismo."
             }
             link="/arcadismo"
           />

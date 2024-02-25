@@ -1,11 +1,13 @@
 import React from "react";
 import "./Landing.css";
 
-function Landing() {
+function Landing({ goTo }) {
   return (
     <div className="landing">
       <h1 id="title">Literature</h1>
-      <div className="arrow"></div>
+      <button id="go-text" onClick={goTo}>
+        &darr;
+      </button>
     </div>
   );
 }

@@ -31,7 +31,7 @@ function AntiguidadeMov() {
             " Responsáveis pela implementação de diversas sociedades e culturas com tantos pensamentos emergindo. "
           }
           p2={
-            "As obras de Homero foram de suma importância para o início da composição literária fora dos hieróglifos" +
+            "As obras de Homero foram de suma importância para o início da composição literária fora dos hieróglifos " +
             "escritos em tábuas de argila na Mesopotâmia. Possivelmente sendo o primeiro autor literário reconhecido," +
             " Homero é autor de Ilíada e Odisséia, obras que marcaram a literatura como conhecemos hoje."
           }

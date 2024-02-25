@@ -26,7 +26,7 @@ function ArcadismoMov() {
           }
           title={"Arcadismo"}
           p1={
-            "A escola arcádia surgiu com a influencia do iluminismo e do avanço industrial europeu.  " +
+            "A escola arcádia surgiu com a influencia do iluminismo e do avanço industrial europeu. " +
             "Sendo um dos principais movimentos artístico-literarios do século XVIII, o arcadismo buscava o resgate a mitologia antiga e a exaltação da natureza, " +
             "a partir de um conceito amplamente falado no contexto deste movimento: o buscolismo. "
           }

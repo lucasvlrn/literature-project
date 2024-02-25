@@ -18,7 +18,7 @@
 }
 
 .image-back-trv > h1 {
-  color: #000;
+  color: #fff;
   opacity: 0.5;
   font-size: 4rem;
 }
@@ -26,9 +26,11 @@
 #go-text {
   border: 0;
   background-color: transparent;
-  opacity: 0.5;
-  font-size: 3rem;
+  color: hsl(212, 27%, 19%);
+  opacity: 1;
+  font-size: 5rem;
   cursor: pointer;
+  transition: all 0.5s ease-in-out;
 }
 
 @keyframes saturation {
