@@ -1,0 +1,34 @@
+.card-footer {
+  width: 100%;
+  min-height: 20rem;
+  background-color: hsl(212, 27%, 19%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+#logo {
+  font-family: "Fraunces", sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+.row-links {
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+#link {
+  text-decoration: none;
+  color: white;
+  font-family: "Fraunces", sans-serif;
+}
+.row-socials {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}

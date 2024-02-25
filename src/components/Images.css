@@ -1,0 +1,13 @@
+.card-images {
+  width: 100%;
+  height: 100%;
+}
+#carrossel {
+  width: 100%;
+  height: 400px;
+}
+@media (max-width: 768px) {
+  /* #carrossel {
+    width: 300px;
+  } */
+}

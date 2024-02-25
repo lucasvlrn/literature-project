@@ -1,72 +1,87 @@
-import "../App.css";
-import Arcadismo from "../assets/Arcadismo.png";
-import Classicismo from "../assets/classicismo.png";
-import Dante from "../assets/dante.png";
-import Caravaggio from "../assets/davi.png";
-import Romantismo from "../assets/romantismo.png";
-import Vassalagem from "../assets/vassalagem.png";
-import CardClassic from "../components/CardClassic.jsx";
-import Card from "../components/card.jsx";
+import Bottom from "../components/Bottom.jsx";
+import Card from "../components/Card.jsx";
+import Footer from "../components/Footer.jsx";
 import "./Home.css";
+import Landing from "./Landing.jsx";
 
 function Home() {
   return (
     <>
-      <div className="container"></div>
-      <div className="container-content">
-        <div className="content">
-          <div className="content-left">
-            <CardClassic
-              title={"Antiguidade Clássica"}
-              subtitle={"O Início de tudo"}
-              link="antiguidade-classica"
-            />
-          </div>
-          <div className="content-right">
-            <div className="container-right-top">
-              <Card
-                title={"Trovadorismo"}
-                subtitle={"Período Medieval"}
-                image={Vassalagem}
-                link="/trovadorismo"
-              />
-              <Card
-                title={"Humanismo"}
-                subtitle={"Transição para a renascença"}
-                image={Dante}
-                link="/humanismo"
-              />
-              <Card
-                title={"Classicismo"}
-                subtitle={"O retorno aos clássicos"}
-                image={Classicismo}
-                link="/classicismo"
-              />
-            </div>
-            <div className="container-right-bottom">
-              <Card
-                title={"Barroco"}
-                subtitle={"Contraste ao classicismo"}
-                image={Caravaggio}
-                link="/barroco"
-              />
-              <Card
-                title={"Arcadismo"}
-                subtitle={"Bucolismo e a mitologia"}
-                image={Arcadismo}
-                link="/arcadismo"
-              />
-
-              <Card
-                title={"Romantismo"}
-                subtitle={"Idealizações e a subjetividade"}
-                image={Romantismo}
-                link="/romantismo"
-              />
-            </div>
-          </div>
+      <Landing />
+      <div className="container">
+        <div className="row-antiguidade">
+          <Card
+            title="Antiguidade Clássica"
+            subtitle={
+              "A antiguidade clássica, que como o próprio nome sugere deu origem aos clássicos mundiais. Responsáveis pela implementação de diversas sociedades e culturas com tantos pensamentos emergindo."
+            }
+            link="/antiguidade-classica"
+          />
+          <div className="img1"></div>
+        </div>
+        <div className="row-trovadorismo">
+          <div className="img2"></div>
+          <Card
+            title={"Trovadorismo"}
+            subtitle={
+              "O período medieval é conhecido como uma época sem tanta relevância histórica, por isso a expressão (hoje descontinuada) “idade das trevas”. No entanto, ouve um movimento literário predominante neste período, que merece sua devida atenção."
+            }
+            link="/trovadorismo"
+          />
+        </div>
+        <div className="row-humanismo">
+          <Card
+            title={"Humanismo"}
+            subtitle={
+              "O humanismo foi um movimento que marcou o modo de pensar do ser humano, que a partir daí, começaram a se importar com coisas diferentes além do teocentrismo."
+            }
+            link="/humanismo"
+          />
+          <div className="img3"></div>
+        </div>
+        <div className="row-classicismo">
+          <div className="img4"></div>
+          <Card
+            title={"Classicismo"}
+            subtitle={
+              "A escola renascentista ficou reconhecida por renascer, os conceitos provenientes da antiguidade clássica, como a simetria, universalidade etc. Com isso, surgiram duas principais escolas artístico-literárias: o classicismo e o barroco"
+            }
+            link="/classicismo"
+          />
+        </div>
+        <div className="row-barroco">
+          <Card
+            title={"Barroco"}
+            subtitle={
+              "O Barroco é um estilo de época caracterizado pelo conflito e culto ao contraste. Ele surgiu no contexto histórico da Reforma Protestante e da Contrarreforma Católica. "
+            }
+            link="/barroco"
+          />
+          <div className="img5"></div>
+        </div>
+        <div className="row-arcadismo">
+          <div className="img6"></div>
+          <Card
+            title={"Arcadismo"}
+            subtitle={
+              "A escola arcádia surgiu com a influencia do iluminismo e do avanço industrial europeu.O arcadismo buscava o resgate a mitologia antiga e a exaltação da natureza, a partir de um conceito amplamente falado no contexto deste movimento: o buscolismo."
+            }
+            link="/arcadismo"
+          />
+        </div>
+        <div className="row-romantismo">
+          <Card
+            title={"Romantismo"}
+            subtitle={
+              "O romantismo é um estilo de época. Apesar de ter surgido na Alemanha, o fato histórico que motivou o aparecimento desse movimento artístico foi a Revolução Francesa um acontecimento importante para toda a Europa."
+            }
+            link="/romantismo"
+          />
+          <div className="img7"></div>
         </div>
       </div>
+      <Bottom />
+      <Footer />
     </>
   );
 }
