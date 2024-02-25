@@ -1,5 +1,5 @@
 import Bottom from "../components/Bottom.jsx";
-import Card from "../components/Card.jsx";
+import Card from "../components/Card";
 import Footer from "../components/Footer.jsx";
 import "./Home.css";
 import Landing from "./Landing.jsx";
