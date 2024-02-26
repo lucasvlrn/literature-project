@@ -21,7 +21,7 @@
   height: 29rem;
   background-image: url(../assets/socrates.png);
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
 }
 .img2 {

@@ -26,7 +26,7 @@ function Bottom() {
           image={Jose}
           name={"José de Alencar"}
           biograph={
-            "José de Alencar (1829-1877) foi um romancista, dramaturgo, jornalista, advogado e político brasileiro. Foi um dos maiores representantes da corrente literária indianista e o principal romancista brasileiro da fase romântica. Entre seus romances destacam-se Iracema e Senhora. Muito importante "
+            "José de Alencar (1829-1877) foi um romancista, dramaturgo, jornalista, advogado e político brasileiro. Foi um dos maiores representantes da corrente literária indianista e o principal romancista brasileiro da fase romântica. Entre seus romances destacam-se Iracema e Senhora. O Guarani "
           }
         />
         <Authors
