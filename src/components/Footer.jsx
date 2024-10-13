@@ -10,7 +10,7 @@ function Footer() {
         </a>
       </div>
       <div className="row-socials">
-        <Link to={"https://github.com/Apolloyy"}>
+        <Link to={"https://github.com/lucasvlrn"}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
